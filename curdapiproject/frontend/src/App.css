@@ -1,14 +1,14 @@
-/* Reset some default styles */
+
 html, body {
-  height: 100%; /* Make sure body takes full height */
-  margin: 0; /* Remove default margin */
-  display: flex; /* Use flexbox for alignment */
-  align-items: center; /* Center items vertically */
-  justify-content: center; /* Center items horizontally */
-  background-color: #f8f9fa; /* Light gray background for contrast */
+  height: 100%;
+  margin: 0; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;  
+  background-color: #f8f9fa; 
 }
 
-/* Container for the login form */
+
 .login-container {
   display: flex;
   flex-direction: column;
@@ -19,39 +19,37 @@ html, body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  background-color: #ffffff; /* Light background for contrast */
+  background-color: #ffffff; 
 }
 
-/* Heading style */
+
 .login-container h1 {
   font-size: 24px;
-  color: #333333; /* Dark color for contrast */
+  color: #333333; 
   margin-bottom: 20px;
 }
 
-/* Input field styles */
+
 .login-container input {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid #dddddd; /* Light gray border */
+  border: 1px solid #dddddd; 
   border-radius: 5px;
   font-size: 16px;
   transition: border-color 0.3s;
 }
 
-/* Input focus effect */
 .login-container input:focus {
-  border-color: #007bff; /* Blue color for focus */
-  outline: none; /* Remove default outline */
+  border-color: #007bff; 
+  outline: none; 
 }
 
-/* Button styles */
 .login-container button {
   width: 100%;
   padding: 10px;
-  background-color: #007bff; /* Blue background for button */
-  color: #ffffff; /* White text color */
+  background-color: #007bff; 
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   font-size: 16px;
@@ -59,14 +57,14 @@ html, body {
   transition: background-color 0.3s;
 }
 
-/* Button hover effect */
+
 .login-container button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #0056b3;
 }
 
-/* Message paragraph style */
+
 .login-container p {
   margin-top: 10px;
   font-size: 14px;
-  color: #ff0000; /* Red color for error messages */
+  color: #ff0000;
 }
